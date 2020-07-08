@@ -97,6 +97,59 @@
             </div>
             <!-- end section Services-->
 
+
+
+            <!-- section Certifications-->
+            <div class="idsection" id="certifications"></div>
+
+            <div class="container">
+                    <div class="col-12 text-center">
+                        <h1 class="display-4 miestilo text-primary pb-4">Certificaciones</h1>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-4">
+                            <div class="card">
+                                <img class="card-img-top" src="img/certification/sdpc.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                   <h5 class="card-title">Scrum Developer Professional Certificate (SDPC)</h5>
+                                    <p class="card-text text-justify">Esta certificación le permitirá cubrir todo el conocimiento del marco de Scrum, definiciones clave y roles. Después de esto, estará listo para embarcarse en un viaje hacia el certificado Scrum Advanced Professional (SAPC)</p>
+                                </div>
+                                <div class="card-footer">
+                                     <a href="#" class="btn btn-p btn-block">Ver Información</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-4">
+                            <div class="card">
+                                <img class="card-img-top" src="img/certification/smpc.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                   <h5 class="card-title">Scrum Master Professional Certificate (SMPC)</h5>
+                                    <p class="card-text text-justify">Después de completar el examen del Certificado Scrum Master Professional, puede esperar obtener una visión general y comprensión de la teoría, las prácticas y las reglas de Scrum.</p>
+                                </div>
+                                <div class="card-footer">
+                                     <a href="#" class="btn btn-p btn-block">Ver Información</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-4">
+                            <div class="card">
+                                <img class="card-img-top" src="img/certification/smfc.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                   <h5 class="card-title">Scrum Foundation Professional Certificate (SFPC)</h5>
+                                    <p class="card-text text-justify">Esto le permitirá cubrir todo el conocimiento del marco de Scrum, definiciones clave y roles. Después de esto, estará listo para embarcarse en un viaje hacia el certificado Scrum Advanced Professional (SAPC).</p>
+                                </div>
+                                <div class="card-footer">
+                                     <a href="#" class="btn btn-p btn-block">Ver Información</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- end section Certifications-->
+
             <!-- section Contact-->
             <div class="idsection" id="contacto"></div>
 
@@ -113,24 +166,24 @@
                             <div class="form-group">
                                 <h5 class="text-success" for="name">Nombre</h5>
                                 <input class="form-control bg-light shadow-sm" type="text"
-                                id="name" name="name" placeholder="Nombre...">
+                                id="name" name="name" placeholder="Nombre..." required="">
                             </div>
 
                             <div class="form-group">
                                 <h5 class="text-success" for="email">Email</h5>
                                 <input class="form-control bg-light shadow-sm " type="email"
-                                id="email" name="email" placeholder="Email...">
+                                id="email" name="email" placeholder="Email..." required="">
                             </div>
 
                             <div class="form-group">
                                 <h5 class="text-success" for="subject">asunto</h5>
                                 <input class="form-control bg-light shadow-sm" type="text"
-                                id="subject" name="subject" placeholder="Asunto..." >
+                                id="subject" name="subject" placeholder="Asunto..." required="">
                             </div>
 
                             <div class="form-group">
                                 <h5 class="text-success" for="content">Contenido</h5>
-                                <textarea class="form-control bg-light shadow-sm"  rows="5" name="content" placeholder="contenido ...."></textarea>
+                                <textarea class="form-control bg-light shadow-sm"  rows="5" name="content" placeholder="contenido ...." minlength="10" required=""></textarea>
                             </div>
                             <br>
                             <button type="submit" class="btn btn-p btn-lg btn-block">Enviar</button>
@@ -232,6 +285,7 @@
                 }
             });
         </script>
+
 
     </body>
 </html>
