@@ -1,0 +1,53 @@
+
+.idsection{
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .miestilo {
+        text-align: center;
+    }
+}
+@media (max-width: 425px) {
+    .miestilo {
+        font-size: 40px;
+    }
+}
+@media (max-width: 570px) {
+    .miestilofooter {
+        text-align: center;
+    }
+}
+
+.bg-prueba  {
+    opacity: 0.9;
+    transition: all 2s ease;
+}
+.bg-dark  {
+    transition: all 2s ease;
+}
+#map {
+    width: 90%; height: 400px; margin-top: 10px; margin-bottom: 10px;
+    background-color: blueviolet
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-p {
+    background-color: #4D47C9;
+    color: white;
+    border-radius: 30px;
+}
+
+.btn-p:hover {
+    background-color: #6C63FF;
+    transition: all 0.5s ease;
+    color: white;
+    shadow: true;
+}
+
+.color-primary {
+    color: #4D47C9;
+}
