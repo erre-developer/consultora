@@ -114,7 +114,7 @@
                                 <p class="card-text">Necesitan evaluar sus actuales Servicios TI o su renovación.
                                     Participamos en los proceso de RFI, RFP, Negociación y transición.</p>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6">
@@ -157,7 +157,7 @@
                             (SAPC)</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-p btn-block">Ver Información</a>
+                        <a href="sdpc.php" class="btn btn-p btn-block">Ver Información</a>
                     </div>
                 </div>
             </div>
@@ -205,30 +205,29 @@
             </div>
 
             <div class="col-lg-6 col-md-12 col-sm-12">
-                <form class="bg-light py-2 px-3" method="POST" action="">
-
+                <form class="bg-light py-2 px-3" method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
 
                     <div class="form-group">
                         <h6 class="color-primary" for="name">Nombre</h6>
-                        <input class="form-control bg-light shadow-sm" type="text" id="name" name="name"
+                        <input class="form-control bg-light shadow-sm" type="text" id="name" name="txtName"
                             placeholder="Ingrese su nombre..." required="">
                     </div>
 
                     <div class="form-group">
                         <h6 class="color-primary" for="email">Email</h6>
-                        <input class="form-control bg-light shadow-sm " type="email" id="email" name="email"
+                        <input class="form-control bg-light shadow-sm " type="email" id="email" name="txtEmail"
                             placeholder="Ingrese su email..." required="">
                     </div>
 
                     <div class="form-group">
                         <h6 class="color-primary" for="subject">asunto</h6>
-                        <input class="form-control bg-light shadow-sm" type="text" id="subject" name="subject"
+                        <input class="form-control bg-light shadow-sm" type="text" id="subject" name="txtSubject"
                             placeholder="Ingrese el asunto..." required="">
                     </div>
 
                     <div class="form-group">
                         <h6 class="color-primary" for="content">Contenido</h6>
-                        <textarea class="form-control bg-light shadow-sm" rows="5" name="content"
+                        <textarea class="form-control bg-light shadow-sm" rows="5" name="txtContent"
                             placeholder="Ingrese su mensaje ...." minlength="10" required=""></textarea>
                     </div>
                     <br>
@@ -258,6 +257,41 @@
         </div><!-- end div roww-->
     </div><!-- end div container-->
     <!-- end section Contact-->
+
+    <?php
+
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+            //Datos
+            $nombre = $_POST["txtName"];
+            $correo = $_POST["txtEmail"];
+            $asunto = $_POST["txtSubject"];
+            $mensaje = $_POST["txtContent"];
+
+            $para = 'richardfoncea@gmail.com';
+            $titulo = $asunto;
+            $mensaje = " Nombre: " . $nombre . "\n Email: " . $correo . "\n"
+                    . "------------------------------------------------------------------------------------\n Mensaje: " . $mensaje;
+            $cabeceras = 'From: ' . $correo;
+
+            $comprobar = mail($para, $titulo, $mensaje, $cabeceras);
+
+            if ($comprobar) {
+                echo "
+                    
+                        <script language='JavaScript'>
+                        var men = 'Mensaje Enviado Correctamente, nos pondremos en contacto contigo';
+                        alert(men);
+                        </script>";
+            } else {
+                echo "
+                        <script language='JavaScript'>
+                        var men = 'Error no se pudo enviar mensaje';
+                        alert(men);
+                        </script>";
+            }
+        }
+    ?>
 
 
     <!-- section footer-->

@@ -1,6 +1,10 @@
 
 .idsection{
-    padding: 45px;
+    padding: 50px;
+}
+
+.color-jumbo {
+    color: #2c789f;
 }
 
 @media (max-width: 768px) {
@@ -8,8 +12,12 @@
         text-align: center;
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .miestilo {
+        font-size: 40px;
+    }
+    
+    .color-jumbo{
         font-size: 40px;
     }
 }
@@ -17,6 +25,11 @@
     .miestilofooter {
         text-align: center;
     }
+}
+
+p {
+    text-align: justify;
+    color: #687B8C;
 }
 
 .bg-prueba  {
