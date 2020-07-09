@@ -1,7 +1,7 @@
 <nav  id="menu" class="navbar navbar-expand-lg navbar-light text-light shadow py-3 fixed-top navbar-dark bg-dark">
 
     <div class="container">
-        <a class="navbar-brand text-white" href="home">
+        <a class="navbar-brand text-white" href="index.php">
             <h3>Consultoria <span class="text-primary">PMO</span></h3>
         </a>
 

@@ -1,6 +1,6 @@
 
 .idsection{
-    padding: 50px;
+    padding: 45px;
 }
 
 @media (max-width: 768px) {
@@ -52,10 +52,3 @@ a:link, a:visited, a:active {
     color: #4D47C9;
 }
 
-.card-certification {
-  flex: 1 200px;
-  padding: 2px 10px 5px 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-
-}
