@@ -45,7 +45,6 @@ a:link, a:visited, a:active {
     background-color: #6C63FF;
     transition: all 0.3s ease;
     color: white;
-    shadow: true;
 }
 
 .color-primary {

@@ -10,29 +10,30 @@
 
     <title>Consultoria PMO</title>
 
-    <style type="text/css">
+    <style>
+    
     #box1 {
         height: 100vh;
-        width: 100%;
-        background-image: url('img/fondo1.jpg');
+        background-image: url('img/fondo.jpg');
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .parallax {
+        /* background-image: url("img/parallax2.png");*/
+        min-height: 450px; 
+        background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .parallax {
-    /* The image used */
-    background-image: url("img/parallax2.png");
 
-    /* Set a specific height */
-    min-height: 450px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    #section1{
+        background-image: url('img/parallax.png');
+        width: 100%;
     }
+
     </style>
 </head>
 
@@ -73,65 +74,56 @@
     </div>
     <!-- end section Contact-->
 
-
-
     <!-- section Services-->
     <div class="idsection" id="servicio"></div>
 
-    <div class="container">
-        <div class="d-flex flex-wrap flex-row-reverse">
+    <div class="container mb-5">
+        <div class="d-flex flex-wrap">
             <div class="col-12 text-center">
                 <h1 class="display-4 miestilo text-primary pb-4">Servicios</h1>
             </div>
             <div class="card-deck">
-                <div class="col-xl-3 col-lg-6 col-md-6">
+                <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="card my-2">
                         <div class="container card-body">
-                            <img class="card-img-top" src="/img/home2.svg" alt="Card image cap">
+                            <img class="card-img-top" src="img/home2.svg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a
-                                    natural lead-in to additional content. This content is a little bit longer.
-                                </p>
+                                <h5 class="card-title">Gestión de Proyecto</h5>
+                                <p class="card-text">Prestamos apoyo en la Gestión de Proyectos según Metodología PMBoK.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-6 col-md-6">
+                <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="card my-2">
                         <div class="container card-body">
-                            <img class="card-img-top" src="/img/gestion.svg" alt="Card image cap">
+                            <img class="card-img-top" src="img/home4.svg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a
-                                    natural lead-in to additional content. This content is a little bit longer.
-                                </p>
+                                <h5 class="card-title">Estrategia de Sourcing</h5>
+                                <p class="card-text">Ayudamos a las organizaciones a definir el catalogo de servicios TI y a definir cuales externalizar.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-6 col-md-6">
+                <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="card my-2">
                         <div class="container card-body">
-                            <img class="card-img-top" src="/img/gestion.svg" alt="Card image cap">
+                            <img class="card-img-top" src="img/home5.svg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a
-                                    natural lead-in to additional content. This content is a little bit longer.
-                                </p>
+                                <h5 class="card-title">Licitaciones de servicios TI</h5>
+                                <p class="card-text">Necesitan evaluar sus actuales Servicios TI o su renovación.
+                                    Participamos en los proceso de RFI, RFP, Negociación y transición.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-6 col-md-6">
+                <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="card my-2">
                         <div class="container card-body">
-                            <img class="card-img-top" src="/img/plan.svg" alt="Card image cap">
+                            <img class="card-img-top" src="img/home7.svg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a
-                                    natural lead-in to additional content. This content is a little bit longer.
-                                </p>
+                                <h5 class="card-title">Plan estratégico TI</h5>
+                                <p class="card-text">Acompañamos a tu organización en definir el plan estratégico TI y un Road Map para su implementación .</p>
                             </div>
                         </div>
                     </div>
@@ -141,7 +133,8 @@
     </div>
     <!-- end section Services-->
 
-    <div class="parallax"></div>
+    <!-- secction Parallax-->
+    <div class="parallax" id="section1"></div>
 
 
     <!-- section Certifications-->
@@ -284,8 +277,9 @@
                 </div>
                 <div class="text-center miestilofooter col-12 col-sm-6 col-md-6 d-flex flex-column align-items-end ">
                     <a class="text-success" href="index.php#nosotros">Nosotros</a>
-                    <a class="text-success" href="index.php#contacto">Contacto</a>
                     <a class="text-success" href="index.php#servicio">Servicio</a>
+                    <a class="text-success" href="index.php#certifications">Certificaciones</a>
+                    <a class="text-success" href="index.php#contacto">Contacto</a>
                     <a class="text-success" href="index.php#contacto">Ubicacion</a>
                 </div>
             </div>
