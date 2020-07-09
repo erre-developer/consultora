@@ -8,31 +8,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Consultoria PMO</title>
+    <title>Scrum Developer Professional Certificate</title>
 
-    <style>
-    #box1 {
-        height: 100vh;
-        background-image: url('img/fondo.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .parallax {
-        /* background-image: url("img/parallax2.png");*/
-        min-height: 450px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    #section1 {
-        background-image: url('img/parallax.png');
-        width: 100%;
-    }
-    </style>
 </head>
 
 <body>
@@ -42,24 +19,31 @@
     </header>
 
     <div class="jumbotron jumbotron-fluid mt-5">
-            <div class="container">
-                <h1 class="display-4 text-center color-jumbo">Scrum Developer Professional Certificate (SDPC)</h1>
-            </div>
+        <div class="container">
+            <h1 class="display-4 text-center color-jumbo">Scrum Developer Professional Certificate (SDPC)</h1>
         </div>
+    </div>
 
     <!-- section Certifications-->
     <div class="container">
         <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-12">
+            <div class="col-xl-4 col-lg-4 col-md-12 py-3">
                 <img class="img-fluid" src="img/certification/cert_sdcp.png" alt="Certification sdpc">
             </div>
             <div class="col-xl-4 col-lg-4 col-md-12">
-            <h3>Introducción:</h3>
-                        <p>CertiProf® ofrece el programa Scrum Developer Professional Certificate (SDPC) para validar su conocimiento sobre Scrum. Nuestro examen es una prueba en línea de opción múltiple y puede tomarla desde su propia PC desde cualquier lugar del mundo.</p>
-                        <p> Después de completar el examen de Scrum Developer Professional Certificate, puede esperar obtener una visión general y comprensión sobre cómo entregar un producto de Incremento de “Hecho” potencialmente liberable al final de cada Sprint.</p>
+                <h3>Introducción:</h3>
+                <p>CertiProf® ofrece el programa Scrum Developer Professional Certificate (SDPC) para validar su
+                    conocimiento sobre Scrum. Nuestro examen es una prueba en línea de opción múltiple y puede tomarla
+                    desde su propia PC desde cualquier lugar del mundo.</p>
+                <p> Después de completar el examen de Scrum Developer Professional Certificate, puede esperar obtener
+                    una visión general y comprensión sobre cómo entregar un producto de Incremento de “Hecho”
+                    potencialmente liberable al final de cada Sprint.</p>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-12">
-            <p>Recomendamos que continúe su formación profesional Scrum con el Certificado de Propietario del Producto (SPOPC) o el Certificado Profesional de Scrum Master (SMPC). Esto le permitirá cubrir todo el conocimiento del marco de Scrum, definiciones clave y roles. Después de esto, estará listo para embarcarse en un viaje hacia el certificado Scrum Advanced Professional (SAPC).</p>
+                <p>Recomendamos que continúe su formación profesional Scrum con el Certificado de Propietario del
+                    Producto (SPOPC) o el Certificado Profesional de Scrum Master (SMPC). Esto le permitirá cubrir todo
+                    el conocimiento del marco de Scrum, definiciones clave y roles. Después de esto, estará listo para
+                    embarcarse en un viaje hacia el certificado Scrum Advanced Professional (SAPC).</p>
             </div>
 
             <div class="col-lg-6">
@@ -67,16 +51,18 @@
                 <div class="">
                     <h3><strong>Objetivos de Aprendizaje:</strong></h3>
                     <p>Introducción a los principios y conceptos ágiles.</p>
-                    <p><img src="img/certification/point.png" width="6" height="6" />    Agile PM<br />
-                        <img src="img/certification/point.png" width="6" height="6" />    Proyecto tradicional de PM<br />
-                        <img src="img/certification/point.png" width="6" height="6" />    Enfoques de gestión<br />
-                        <img src="img/certification/point.png" width="6" height="6" />    Kanban<br />
-                        <img src="img/certification/point.png" width="6" height="6" />    Manifiesto<br />
-                        <img src="img/certification/point.png" width="6" height="6" />    Roles Scrum<br />
-                        <img src="img/certification/point.png" width="6" height="6" />    Artefactos Scrum<br />
-                        <img src="img/certification/point.png" width="6" height="6" />    Planificación de Sprint<br />
-                        <img src="img/certification/point.png" width="6" height="6" />    Planificacion de lanzamiento<br />
-                        <img src="img/certification/point.png" width="6" height="6" />    Gestionando grandes o distribuidos<br />
+                    <p><img src="img/certification/point.png" width="6" height="6" /> Agile PM<br />
+                        <img src="img/certification/point.png" width="6" height="6" /> Proyecto tradicional de PM<br />
+                        <img src="img/certification/point.png" width="6" height="6" /> Enfoques de gestión<br />
+                        <img src="img/certification/point.png" width="6" height="6" /> Kanban<br />
+                        <img src="img/certification/point.png" width="6" height="6" /> Manifiesto<br />
+                        <img src="img/certification/point.png" width="6" height="6" /> Roles Scrum<br />
+                        <img src="img/certification/point.png" width="6" height="6" /> Artefactos Scrum<br />
+                        <img src="img/certification/point.png" width="6" height="6" /> Planificación de Sprint<br />
+                        <img src="img/certification/point.png" width="6" height="6" /> Planificacion de
+                        lanzamiento<br />
+                        <img src="img/certification/point.png" width="6" height="6" /> Gestionando grandes o
+                        distribuidos<br />
                         Equipos Scrum<br />
                         Planificacion de lanzamiento<br />
                         Proyectos híbridos &#8211; TI bimodal<br />
@@ -91,23 +77,24 @@
                         Planificación avanzada y métricas<br />
                         Velocidad</p>
                     <h3><strong>Perfil de audiencia:</strong></h3>
-                    <p>Esta certificación es adecuada para cualquier persona que esté interesada en convertirse en un desarrollador de Scrum.</p>
+                    <p>Esta certificación es adecuada para cualquier persona que esté interesada en convertirse en un
+                        desarrollador de Scrum.</p>
                     <h3><strong>Pre requisitos:</strong></h3>
                     <p>No hay requisitos previos formales para esta certificación.</p>
                     <h3><strong>Formación:</strong></h3>
                     <p>Tipo de curso: Fundamentos<br />
-                    40 preguntas<br />
-                    Código de Certificación SDPC<br />
-                    Duración: 16 horas.</p>
+                        40 preguntas<br />
+                        Código de Certificación SDPC<br />
+                        Duración: 16 horas.</p>
                     <h3><strong>Examen de Certificación:</strong></h3>
-                    <p>  Formato: opción múltiple<br />
-                    Preguntas: 40<br />
-                    Idioma: Inglés / Español<br />
-                    Puntuación del pase: 24/40 o 60%<br />
-                    Duración: 60 minutos máximo.<br />
-                    Libro abierto: No<br />
-                    Entrega: Este examen está disponible en línea o en papel.<br />
-                    Supervisado: será a discreción del Socio
+                    <p> Formato: opción múltiple<br />
+                        Preguntas: 40<br />
+                        Idioma: Inglés / Español<br />
+                        Puntuación del pase: 24/40 o 60%<br />
+                        Duración: 60 minutos máximo.<br />
+                        Libro abierto: No<br />
+                        Entrega: Este examen está disponible en línea o en papel.<br />
+                        Supervisado: será a discreción del Socio
                     </p>
                     <p><span style="color: #ffffff;">Scrum Developer Professional Certificate</span></p>
 
@@ -117,7 +104,7 @@
 
         </div>
 
-        
+
     </div>
     <!-- end section Contact-->
 

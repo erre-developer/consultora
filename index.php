@@ -11,7 +11,6 @@
     <title>Consultoria PMO</title>
 
     <style>
-    
     #box1 {
         height: 100vh;
         background-image: url('img/fondo.jpg');
@@ -22,18 +21,17 @@
 
     .parallax {
         /* background-image: url("img/parallax2.png");*/
-        min-height: 450px; 
+        min-height: 450px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-    #section1{
+    #section1 {
         background-image: url('img/parallax.png');
         width: 100%;
     }
-
     </style>
 </head>
 
@@ -89,7 +87,8 @@
                             <img class="card-img-top" src="img/home2.svg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Gestión de Proyecto</h5>
-                                <p class="card-text">Prestamos apoyo en la Gestión de Proyectos según Metodología PMBoK.</p>
+                                <p class="card-text">Prestamos apoyo en la Gestión de Proyectos según Metodología PMBoK.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -100,7 +99,8 @@
                             <img class="card-img-top" src="img/home4.svg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Estrategia de Sourcing</h5>
-                                <p class="card-text">Ayudamos a las organizaciones a definir el catalogo de servicios TI y a definir cuales externalizar.</p>
+                                <p class="card-text">Ayudamos a las organizaciones a definir el catalogo de servicios TI
+                                    y a definir cuales externalizar.</p>
                             </div>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                                 <p class="card-text">Necesitan evaluar sus actuales Servicios TI o su renovación.
                                     Participamos en los proceso de RFI, RFP, Negociación y transición.</p>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6">
@@ -123,7 +123,8 @@
                             <img class="card-img-top" src="img/home7.svg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Plan estratégico TI</h5>
-                                <p class="card-text">Acompañamos a tu organización en definir el plan estratégico TI y un Road Map para su implementación .</p>
+                                <p class="card-text">Acompañamos a tu organización en definir el plan estratégico TI y
+                                    un Road Map para su implementación .</p>
                             </div>
                         </div>
                     </div>
@@ -146,6 +147,22 @@
         </div>
 
         <div class="row">
+
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/certification/smfc.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Scrum Foundation Professional Certificate (SFPC)</h5>
+                        <p class="card-text text-justify">Esto le permitirá cubrir todo el conocimiento del
+                            marco de Scrum, definiciones clave y roles. Después de esto, estará listo para
+                            embarcarse en un viaje hacia el certificado Scrum Advanced Professional (SAPC).</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="sfpc.php" class="btn btn-p btn-block">Ver Información</a>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-4">
                 <div class="card">
                     <img class="card-img-top" src="img/certification/sdpc.jpg" alt="Card image cap">
@@ -172,25 +189,11 @@
                             teoría, las prácticas y las reglas de Scrum.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-p btn-block">Ver Información</a>
+                        <a href="smpc.php" class="btn btn-p btn-block">Ver Información</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-4">
-                <div class="card">
-                    <img class="card-img-top" src="img/certification/smfc.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Scrum Foundation Professional Certificate (SFPC)</h5>
-                        <p class="card-text text-justify">Esto le permitirá cubrir todo el conocimiento del
-                            marco de Scrum, definiciones clave y roles. Después de esto, estará listo para
-                            embarcarse en un viaje hacia el certificado Scrum Advanced Professional (SAPC).</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-p btn-block">Ver Información</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     <!-- end section Certifications-->
