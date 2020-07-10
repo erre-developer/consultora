@@ -37,7 +37,6 @@
         background-image: url('img/parallax2.jpg');
         width: 100%;
     }
-    
     </style>
 </head>
 
@@ -301,7 +300,7 @@
                     </div>
 
                     <div class="form-group">
-                        <h6 class="color-primary" for="content">Contenido</h6>
+                        <h6 class="color-primary" for="content">Mensaje</h6>
                         <textarea class="form-control bg-light shadow-sm" rows="5" name="txtContent"
                             placeholder="Ingrese su mensaje ...." minlength="10" required=""></textarea>
                     </div>
@@ -318,14 +317,17 @@
                         </div>
 
                         <div class="col-12">
-                            <h6 class="text-success"><span><img src="fonts/ubicacion.svg" alt="" width="25" height="25"></span>
-                                 Avenida Providencia, 727 - Providencia, Santiago - Chile
+                            <h6 class="text-success"><span><img src="fonts/ubicacion.svg" alt="" width="25"
+                                        height="25"></span>
+                                Avenida Providencia, 727 - Providencia, Santiago - Chile
                             </h6>
-                            <h6 class="text-success"><span><img src="fonts/llamada.svg" alt="" width="25" height="25"></span>
-                                 Llamar +56-9-6120 4054
+                            <h6 class="text-success"><span><img src="fonts/llamada.svg" alt="" width="25"
+                                        height="25"></span>
+                                Llamar +56-9-6120 4054
                             </h6>
-                            <h6 class="text-success"><span><img src="fonts/email.svg" alt="" width="25" height="25"></span>
-                                 contacto@consultoriapmo.com
+                            <h6 class="text-success"><span><img src="fonts/email.svg" alt="" width="25"
+                                        height="25"></span>
+                                contacto@consultoriapmo.com
                             </h6>
 
                         </div>
@@ -341,24 +343,24 @@
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-            //Datos
-            $nombre = $_POST["txtName"];
-            $correo = $_POST["txtEmail"];
-            $asunto = $_POST["txtSubject"];
-            $mensaje = $_POST["txtContent"];
+            $to = 'example@dominio.com';
+            $name = $_POST["txtName"];
+            $email = $_POST["txtEmail"];
+            $subject = $_POST["txtSubject"];
+            $message = $_POST["txtContent"];
+            $headers = 'From: '. $to . "\r\n" .
+                 'Reply-To: ' . $email;
 
-            $para = 'richardfoncea@gmail.com';
-            $titulo = $asunto;
-            $mensaje = " Nombre: " . $nombre . "\n Email: " . $correo . "\n"
-                    . "------------------------------------------------------------------------------------\n Mensaje: " . $mensaje;
-            $cabeceras = 'From: ' . $correo;
+            
 
-            $comprobar = mail($para, $titulo, $mensaje, $cabeceras);
+            $message = " Nombre: " . $name . "\n Email: " . $email . "\n"
+                    . "------------------------------------------------------------------------------------\n Mensaje: " . $message;
+            
+
+            $comprobar = mail($to, $subject, $message, $headers);;
 
             if ($comprobar) {
-                echo "
-                    
-                        <script language='JavaScript'>
+                echo "<script language='JavaScript'>
                         var men = 'Mensaje Enviado Correctamente, nos pondremos en contacto contigo';
                         alert(men);
                         </script>";
