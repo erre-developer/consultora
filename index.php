@@ -37,6 +37,7 @@
         background-image: url('img/parallax2.jpg');
         width: 100%;
     }
+    
     </style>
 </head>
 
