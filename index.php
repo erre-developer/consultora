@@ -317,11 +317,15 @@
                         </div>
 
                         <div class="col-12">
-
-                            <h6 class="text-success">Avenida Providencia, 727 - Providencia, Santiago - Chile
+                            <h6 class="text-success"><span><img src="fonts/ubicacion.svg" alt="" width="25" height="25"></span>
+                                 Avenida Providencia, 727 - Providencia, Santiago - Chile
                             </h6>
-                            <h6 class="text-success">Llamar 09 6120 4054</h6>
-                            <h6 class="text-success">contacto@consultoriapmo.com</h6>
+                            <h6 class="text-success"><span><img src="fonts/llamada.svg" alt="" width="25" height="25"></span>
+                                 Llamar +56-9-6120 4054
+                            </h6>
+                            <h6 class="text-success"><span><img src="fonts/email.svg" alt="" width="25" height="25"></span>
+                                 contacto@consultoriapmo.com
+                            </h6>
 
                         </div>
                     </div>
