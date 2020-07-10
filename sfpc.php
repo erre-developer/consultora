@@ -55,22 +55,22 @@
                         4. Monitoreo de proyectos Scrum<br />
                         5. Conceptos básicos de Scrum<br />
                         <h3><strong>Público Objetivo:</strong></h3>
-                        <p> Cualquier persona interesada en aprender sobre metodologías ágiles.</p>
+                        <p>- Cualquier persona interesada en aprender sobre metodologías ágiles.</p>
                         <h3><strong>Pre requisitos:</strong></h3>
-                        <p> No hay requisitos formales para esta certificación.</p>
+                        <p>- No hay requisitos formales para esta certificación.</p>
                         <h3><strong>Formación:</strong></h3>
-                        <p> Tipo de curso: Fundamentos<br />
-                            Código de certificación: SFPC <br />
-                            Duración: 16 horas</p>
+                        <p>- Tipo de curso: Fundamentos<br />
+                            - Código de certificación: SFPC <br />
+                            - Duración: 16 horas</p>
                         <h3><strong>Examen de Certificación:</strong></h3>
-                        <p> Formato: opción múltiple<br />
-                            Preguntas: 40<br />
-                            Idioma: Inglés / Español / Alemán / Portugués<br />
-                            Puntuación del pase: 24/40 o 60%<br />
-                            Duración: 60 minutos máximo.<br />
-                            Libro abierto: No<br />
-                            Entrega: Este examen está disponible en línea o en papel.<br />
-                            Supervisado: será a discreción del Socio.</p>
+                        <p>- Formato: opción múltiple<br />
+                            - Preguntas: 40<br />
+                            - Idioma: Inglés / Español / Alemán / Portugués<br />
+                            - Puntuación del pase: 24/40 o 60%<br />
+                            - Duración: 60 minutos máximo.<br />
+                            - Libro abierto: No<br />
+                            - Entrega: Este examen está disponible en línea o en papel.<br />
+                            - Supervisado: será a discreción del Socio.</p>
                 </div>
             </div>
         </div>

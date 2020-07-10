@@ -32,6 +32,11 @@
         background-image: url('img/parallax.png');
         width: 100%;
     }
+
+    #section2 {
+        background-image: url('img/parallax2.jpg');
+        width: 100%;
+    }
     </style>
 </head>
 
@@ -50,7 +55,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-12">
 
-                <h1 class="display-4 miestilo text-primary ">Quienes Somos</h1>
+                <h1 class="display-4 miestilo color-primary ">Quienes Somos</h1>
 
                 <p class="text-justify">Nuestra misión es aportar valor en el desarrollo de las empresas , de
                     cualquier tamaño, mediante el uso de las tecnologías de la información en todos los procesos
@@ -63,14 +68,27 @@
                     intercambio de ideas y/o debates en torno a las TIC.</p>
 
 
-                <a class="btn btn-lg btn-block btn-p my-4" href="#contacto">Contactanos</a>
+                <a class="btn btn-lg btn-block btn-p my-4" href="#contacto">Contáctanos</a>
             </div>
             <div class="col-lg-6 col-md-12">
                 <img class="img-fluid my-4" src="img/home1.svg" alt="Home ">
             </div>
+            <div class="col-lg-12 col-md-12 partner my-5">
+                <h1 class="display-4 miestilo color-primary">Consultoria PMO</h1>
+                <p>Somor partner asociados de CertiProf. Ello ofrece una amplia gama esencial de certificados
+                    profesionales para particulares y empresas. Su instituto es uno de
+                    los proveedores líderes que no solo tiene como objetivo participar en el mercado local de los EE.
+                    UU., Sino también expandirse a otras regiones de América Latina. </p>
+                <center>
+                    <img class="responsive-img" src="img/certification/CP-Partner.png" alt="Partener">
+                </center>
+            </div>
         </div>
     </div>
     <!-- end section Contact-->
+
+    <!-- secction Parallax-->
+    <div class="parallax" id="section2"></div>
 
     <!-- section Services-->
     <div class="idsection" id="servicio"></div>
@@ -78,27 +96,44 @@
     <div class="container mb-5">
         <div class="d-flex flex-wrap">
             <div class="col-12 text-center">
-                <h1 class="display-4 miestilo text-primary pb-4">Servicios</h1>
+                <h1 class="display-4 miestilo color-primary pb-4">Servicios</h1>
             </div>
             <div class="card-deck">
-                <div class="col-xl-6 col-lg-6 col-md-6">
+
+
+                <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="card my-2">
                         <div class="container card-body">
-                            <img class="card-img-top" src="img/home2.svg" alt="Card image cap">
+                            <img class="card-img-top img-card" src="img/home2.svg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Gestión de Proyecto</h5>
+                                <h5 class="card-title color-primary">Gestión de Proyecto</h5>
                                 <p class="card-text">Prestamos apoyo en la Gestión de Proyectos según Metodología PMBoK.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
+
+                <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="card my-2">
                         <div class="container card-body">
-                            <img class="card-img-top" src="img/home4.svg" alt="Card image cap">
+                            <img class="card-img-top img-card" src="img/home6.svg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Estrategia de Sourcing</h5>
+                                <h5 class="card-title color-primary">Capacitaciones</h5>
+                                <p class="card-text">Área de Capacitación orientada a desarrollar Talleres
+                                    con certificaciones internacionales en diferentes Metodologías o Marcos de Trabajo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="card my-2">
+                        <div class="container card-body">
+                            <img class="card-img-top img-card" src="img/home4.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title color-primary">Estrategia de Sourcing</h5>
                                 <p class="card-text">Ayudamos a las organizaciones a definir el catalogo de servicios TI
                                     y a definir cuales externalizar.</p>
                             </div>
@@ -108,21 +143,21 @@
                 <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="card my-2">
                         <div class="container card-body">
-                            <img class="card-img-top" src="img/home5.svg" alt="Card image cap">
+                            <img class="card-img-top img-card" src="img/home5.svg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Licitaciones de servicios TI</h5>
+                                <h5 class="card-title color-primary">Licitaciones de servicios TI</h5>
                                 <p class="card-text">Necesitan evaluar sus actuales Servicios TI o su renovación.
                                     Participamos en los proceso de RFI, RFP, Negociación y transición.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="col-xl-6 col-lg-6 col-md-12">
                     <div class="card my-2">
                         <div class="container card-body">
-                            <img class="card-img-top" src="img/home7.svg" alt="Card image cap">
+                            <img class="card-img-top img-card" src="img/home7.svg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Plan estratégico TI</h5>
+                                <h5 class="card-title color-primary">Plan estratégico TI</h5>
                                 <p class="card-text">Acompañamos a tu organización en definir el plan estratégico TI y
                                     un Road Map para su implementación .</p>
                             </div>
@@ -143,19 +178,20 @@
 
     <div class="container">
         <div class="col-12 text-center">
-            <h1 class="display-4 miestilo text-primary pb-4">Certificaciones</h1>
+            <h1 class="display-4 miestilo color-primary pb-4">Certificaciones</h1>
         </div>
 
         <div class="row">
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-4">
                 <div class="card">
-                    <img class="card-img-top" src="img/certification/smfc.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/certification/smfc.jpg" alt="Card image cap" whith="100"
+                        heigth="200">
                     <div class="card-body">
-                        <h5 class="card-title">Scrum Foundation Professional Certificate (SFPC)</h5>
-                        <p class="card-text text-justify">Esto le permitirá cubrir todo el conocimiento del
-                            marco de Scrum, definiciones clave y roles. Después de esto, estará listo para
-                            embarcarse en un viaje hacia el certificado Scrum Advanced Professional (SAPC).</p>
+                        <h5 class="card-title color-primary">Scrum Foundation Professional Certificate (SFPC)</h5>
+                        <p class="card-text text-justify">Esto le permitirá cubrir todo el conocimiento del marco Scrum,
+                            las definiciones clave y los roles. Después de esto, estará listo para embarcarse en un
+                            viaje hacia el certificado Scrum Advanced Professional (SAPC).</p>
                     </div>
                     <div class="card-footer">
                         <a href="sfpc.php" class="btn btn-p btn-block">Ver Información</a>
@@ -165,13 +201,13 @@
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-4">
                 <div class="card">
-                    <img class="card-img-top" src="img/certification/sdpc.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/certification/sdpc.jpg" alt="Card image cap" whith="100"
+                        heigth="200">
                     <div class="card-body">
-                        <h5 class="card-title">Scrum Developer Professional Certificate (SDPC)</h5>
-                        <p class="card-text text-justify">Esta certificación le permitirá cubrir todo el
-                            conocimiento del marco de Scrum, definiciones clave y roles. Después de esto, estará
-                            listo para embarcarse en un viaje hacia el certificado Scrum Advanced Professional
-                            (SAPC)</p>
+                        <h5 class="card-title color-primary">Scrum Developer Professional Certificate (SDPC)</h5>
+                        <p class="card-text text-justify">Esto le permitirá cubrir todo el conocimiento del marco Scrum,
+                            las definiciones clave y los roles. Después de esto, estará listo para embarcarse en un
+                            viaje hacia el certificado Scrum Advanced Professional (SAPC).</p>
                     </div>
                     <div class="card-footer">
                         <a href="sdpc.php" class="btn btn-p btn-block">Ver Información</a>
@@ -181,9 +217,26 @@
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-4">
                 <div class="card">
-                    <img class="card-img-top" src="img/certification/smpc.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/certification/spopc.jpg" alt="Card image cap" whith="100"
+                        heigth="200">
                     <div class="card-body">
-                        <h5 class="card-title">Scrum Master Professional Certificate (SMPC)</h5>
+                        <h5 class="card-title color-primary">Scrum Product Owner Professional Certificate (SPOPC)</h5>
+                        <p class="card-text text-justify">Después de completar el examen de Product Owner Professional,
+                            puede esperar obtener una visión general y comprensión sobre cómo maximizar el valor del
+                            producto y el trabajo del Equipo de Desarrollo.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="spopc.php" class="btn btn-p btn-block">Ver Información</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/certification/smpc.jpg" alt="Card image cap" whith="100"
+                        heigth="200">
+                    <div class="card-body">
+                        <h5 class="card-title color-primary">Scrum Master Professional Certificate (SMPC)</h5>
                         <p class="card-text text-justify">Después de completar el examen del Certificado Scrum
                             Master Professional, puede esperar obtener una visión general y comprensión de la
                             teoría, las prácticas y las reglas de Scrum.</p>
@@ -193,6 +246,24 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/certification/sapc.jpg" alt="Card image cap" whith="100"
+                        heigth="200">
+                    <div class="card-body">
+                        <h5 class="card-title color-primary">Scrum Advance Professional Certificate (SAPC)</h5>
+                        <p class="card-text text-justify">El Certificado Profesional Avanzado de Scrum (SAPC) está
+                            dirigido a aquellos que estén interesados ​​en demostrar el conocimiento de las Prácticas de
+                            Scrum en su totalidad.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="sapc.php" class="btn btn-p btn-block">Ver Información</a>
+                    </div>
+                </div>
+            </div>
+
+
 
         </div>
     </div>
@@ -204,7 +275,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="display-4 miestilo text-primary pb-4">Contacto</h1>
+                <h1 class="display-4 miestilo color-primary pb-4">Contacto</h1>
             </div>
 
             <div class="col-lg-6 col-md-12 col-sm-12">

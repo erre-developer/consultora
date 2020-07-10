@@ -41,60 +41,67 @@
             </div>
             <div class="col-xl-4 col-lg-4 col-md-12">
                 <p>Recomendamos que continúe su formación profesional Scrum con el Certificado de Propietario del
-                    Producto (SPOPC) o el Certificado Profesional de Scrum Master (SMPC). Esto le permitirá cubrir todo
+                    Producto (SPOPC) o el Certificado Profesional de Scrum Master (SMPC).</p>
+                <p> Esto le permitirá cubrir todo
                     el conocimiento del marco de Scrum, definiciones clave y roles. Después de esto, estará listo para
                     embarcarse en un viaje hacia el certificado Scrum Advanced Professional (SAPC).</p>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-12">
 
                 <div class="">
                     <h3><strong>Objetivos de Aprendizaje:</strong></h3>
-                    <p>Introducción a los principios y conceptos ágiles.</p>
-                    <p><img src="img/certification/point.png" width="6" height="6" /> Agile PM<br />
-                        <img src="img/certification/point.png" width="6" height="6" /> Proyecto tradicional de PM<br />
-                        <img src="img/certification/point.png" width="6" height="6" /> Enfoques de gestión<br />
-                        <img src="img/certification/point.png" width="6" height="6" /> Kanban<br />
-                        <img src="img/certification/point.png" width="6" height="6" /> Manifiesto<br />
-                        <img src="img/certification/point.png" width="6" height="6" /> Roles Scrum<br />
-                        <img src="img/certification/point.png" width="6" height="6" /> Artefactos Scrum<br />
-                        <img src="img/certification/point.png" width="6" height="6" /> Planificación de Sprint<br />
-                        <img src="img/certification/point.png" width="6" height="6" /> Planificacion de
-                        lanzamiento<br />
-                        <img src="img/certification/point.png" width="6" height="6" /> Gestionando grandes o
+                    <p>
+                        - Introducción a los principios y
+                        conceptos ágiles.<br />
+                        - PM ágil<br />
+                        - Proyecto tradicional de PM<br />
+                        - Enfoques de gestión<br />
+                        - Kanban<br />
+                        - Manifiesto<br />
+                        - Rol de Scrum<br />
+                        - Artefactos Scrum<br />
+                        - Planificación de Sprint<br />
+                        - Planificación de lanzamiento<br />
+                        - Administrar grandes o
                         distribuidos<br />
-                        Equipos Scrum<br />
-                        Planificacion de lanzamiento<br />
-                        Proyectos híbridos &#8211; TI bimodal<br />
-                        Gestión de requerimientos<br />
-                        Visión del producto<br />
-                        Descomposición de épica<br />
-                        Introducción a las historias de usuarios<br />
-                        Definiendo hecho<br />
-                        Criterios de aceptación<br />
-                        Gestión de la cartera de productos<br />
-                        Priorización y Técnicas<br />
-                        Planificación avanzada y métricas<br />
-                        Velocidad</p>
+                        - Equipos Scrum<br />
+                        - Planificación de lanzamiento<br />
+                        - Proyectos Híbridos - Bimodal
+                        IT<br />
+                        - Gestión de requerimientos<br />
+                        - Visión del producto<br />
+                        - Descomposición de Epic<br />
+                        - Introducción a historias de
+                        usuarios<br />
+                        - Definiendo Hecho<br />
+                        - Criterios de aceptación<br />
+                        - Administrar la cartera de
+                        productos<br />
+                        - Priorización y Técnicas<br />
+                        - Planificación avanzada y
+                        métricas<br />
+                        - Velocidad<br />
+                    </p>
                     <h3><strong>Perfil de audiencia:</strong></h3>
-                    <p>Esta certificación es adecuada para cualquier persona que esté interesada en convertirse en un
+                    <p>- Esta certificación es adecuada para cualquier persona que esté interesada en convertirse en un
                         desarrollador de Scrum.</p>
                     <h3><strong>Pre requisitos:</strong></h3>
-                    <p>No hay requisitos previos formales para esta certificación.</p>
+                    <p>- No hay requisitos previos formales para esta certificación.</p>
                     <h3><strong>Formación:</strong></h3>
-                    <p>Tipo de curso: Fundamentos<br />
-                        40 preguntas<br />
-                        Código de Certificación SDPC<br />
-                        Duración: 16 horas.</p>
+                    <p>- Tipo de curso: Fundamentos<br />
+                        - 40 preguntas<br />
+                        - Código de Certificación SDPC<br />
+                        - Duración: 16 horas.</p>
                     <h3><strong>Examen de Certificación:</strong></h3>
-                    <p> Formato: opción múltiple<br />
-                        Preguntas: 40<br />
-                        Idioma: Inglés / Español<br />
-                        Puntuación del pase: 24/40 o 60%<br />
-                        Duración: 60 minutos máximo.<br />
-                        Libro abierto: No<br />
-                        Entrega: Este examen está disponible en línea o en papel.<br />
-                        Supervisado: será a discreción del Socio
+                    <p>- Formato: opción múltiple<br />
+                        - Preguntas: 40<br />
+                        - Idioma: Inglés / Español<br />
+                        - Puntuación del pase: 24/40 o 60%<br />
+                        - Duración: 60 minutos máximo.<br />
+                        - Libro abierto: No<br />
+                        - Entrega: Este examen está disponible en línea o en papel.<br />
+                        - Supervisado: será a discreción del Socio
                     </p>
                     <p><span style="color: #ffffff;">Scrum Developer Professional Certificate</span></p>
 

@@ -2,14 +2,17 @@
         <div class="container-fluid  pb-3">
             <div class="row align-items-center">
                 <div class="text-center col-12 col-sm-6 col-md-6">
-                    <a target="_blank" href="https://www.facebook.com/consultoriapmo">
-                        <img src="img/facebook.svg" alt="Facebook" width="40" height="40">
+                    <a class="px-1" target="_blank" href="https://www.facebook.com/consultoriapmo">
+                        <img src="img/facebook.svg" alt="Facebook" width="35" height="35">
                     </a>
-                    <a target="_blank" href="https://www.youtube.com/channel/UCBmxQfuE8ddZAJBGC5_97lQ">
-                        <img src="img/youtube.svg" alt="Youtube" width="40" height="40">
+                    <a class="px-1" target="_blank" href="https://www.youtube.com/channel/UCBmxQfuE8ddZAJBGC5_97lQ">
+                        <img src="img/youtube.svg" alt="Youtube" width="35" height="35">
                     </a>
-                    <a target="_blank" href="https://www.linkedin.com/school/consultoria-pmo">
-                        <img src="img/linkedin.svg" alt="Linkedin" width="40" height="40">
+                    <a class="px-1" target="_blank" href="https://www.linkedin.com/school/consultoria-pmo">
+                        <img src="img/linkedin.svg" alt="Linkedin" width="35" height="35">
+                    </a>
+                    <a class="px-1" target="_blank" href="https://twitter.com/consultoriapmo">
+                        <img src="img/twitter.svg" alt="Twitter" width="35" height="35">
                     </a>
                 </div>
                 <div class="text-center miestilofooter col-12 col-sm-6 col-md-6 d-flex flex-column align-items-end ">

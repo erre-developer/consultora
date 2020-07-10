@@ -41,7 +41,6 @@ p {
 }
 #map {
     width: 90%; height: 400px; margin-top: 10px; margin-bottom: 10px;
-    background-color: blueviolet
 }
 
 a:link, a:visited, a:active {
@@ -49,7 +48,7 @@ a:link, a:visited, a:active {
 }
 
 .btn-p {
-    background-color: #4D47C9;
+    background-color: #3e66b9;
     color: white;
     border-radius: 30px;
 }
@@ -61,6 +60,24 @@ a:link, a:visited, a:active {
 }
 
 .color-primary {
-    color: #4D47C9;
+    color: #3e66b9;
 }
+
+.partner{
+    color: #3e66b9;
+    text-align: center;
+    display: grid;
+}
+
+.partner2{
+    color: #e8552b;
+}
+
+.responsive-img {
+    width: 30%;
+    min-width: 400px;
+    height: auto;
+    align-items: center;
+    align-content: center;
+  }
 
